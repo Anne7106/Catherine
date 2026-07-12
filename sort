@@ -1,0 +1,7 @@
+data = []
+n = int(input("Enter number of records: "))
+for i in range(n):
+    name, age, score = input("Enter Name,Age,Score: ").split(",")
+    data.append((name, age, score))
+data.sort(key=lambda x: (x[0], int(x[1]), int(x[2])))
+print(data)
