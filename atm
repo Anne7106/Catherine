@@ -1,0 +1,10 @@
+balance = float(input("Enter account balance: "))
+amount = float(input("Enter withdrawal amount: "))
+if amount % 100 != 0:
+    print("Withdrawal amount must be a multiple of 100.")
+elif amount > balance:
+    print("Insufficient balance.")
+else:
+    balance -= amount
+    print("Withdrawal successful.")
+    print("Updated Balance = ₹", balance)
