@@ -1,5 +1,5 @@
-balance = float(input("Enter account balance: "))
-amount = float(input("Enter withdrawal amount: "))
+balance = 10000
+amount = 2000
 if amount % 100 != 0:
     print("Withdrawal amount must be a multiple of 100.")
 elif amount > balance:
