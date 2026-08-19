@@ -1,4 +1,4 @@
-basic = float(input("Enter basic salary: "))
+basic = 5000
 hra = 0.20 * basic
 da = 0.10 * basic
 gross_salary = basic + hra + da
