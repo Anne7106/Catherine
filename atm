@@ -7,4 +7,4 @@ elif amount > balance:
 else:
     balance -= amount
     print("Withdrawal successful.")
-    print("Updated Balance = ₹", balance)
+    print("Updated Balance is ", balance)
